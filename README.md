@@ -1,4 +1,4 @@
-# 基于细粒度语义斗型注入跨模态表征机制的指称分割算法
+# 细粒度语义注入机制基于的指称分割
 
 ## 使用方法
 
@@ -40,5 +40,18 @@ python build_batches.py -d Gref -t val
 5. 使用python eval_miou.py来展示模型的Mean IoU得分。
 
 
+## Citation
+Please cite the following paper if you use this repository in your research.
+```
+@ARTICLE{10149830,
+  author={Yang, Jiaxing and Zhang, Lihe and Lu, Huchuan},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Referring Image Segmentation With Fine-Grained Semantic Funneling Infusion}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-12},
+  doi={10.1109/TNNLS.2023.3281372}}
+ ```
 
 
